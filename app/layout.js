@@ -2,9 +2,9 @@ import "./globals.css";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Commondotxyz Puzzle Art",
+  title: "Puzzle Art For Anoma Community.",
   description:
-    "commondotxyz static puzzle/mosaic art generator with Community Wall",
+    "static puzzle/mosaic art generator with Community Wall for the anoma community",
 };
 
 export default function RootLayout({ children }) {

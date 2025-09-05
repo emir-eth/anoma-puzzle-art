@@ -14,7 +14,11 @@ export default function RootLayout({ children }) {
         <header className="max-w-6xl mx-auto px-4 py-6 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="size-10 rounded-2xl bg-white/10 flex items-center justify-center">
-              <span className="text-sm">🐄</span>
+              <img
+                src="/anoma-logo.svg"
+                alt="Anoma Logo"
+                className="w-6 h-6"
+              />
             </div>
             <div>
               <Link href="/" className="text-xl md:text-2xl font-semibold">

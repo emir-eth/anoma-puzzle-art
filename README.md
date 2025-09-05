@@ -1,3 +1,3 @@
-For the Anoma Community.
+For The Anoma Community.
 
-![Cow](public/readme.png)
+![Anoma](public/readme.png)

@@ -1,3 +1,3 @@
-For the Commondotxyz Community.
+For the Anoma Community.
 
-![Cow](public/readmeimg.png)
+![Cow](public/readme.png)

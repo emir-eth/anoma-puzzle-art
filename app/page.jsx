@@ -122,7 +122,7 @@ export default function Page() {
     const url = canvas.toDataURL("image/png");
     const a = document.createElement("a");
     a.href = url;
-    a.download = `cow-puzzle-art-${gridSize}x${gridSize}.png`;
+    a.download = `anoma-puzzle-art-${gridSize}x${gridSize}.png`;
     a.click();
   };
 
@@ -194,7 +194,7 @@ export default function Page() {
                 <label className="text-sm text-zinc-300">Image URL (optional)</label>
                 <input
                   type="url"
-                  placeholder="https://.../cow.png"
+                  placeholder="https://.../anoma.png"
                   className="mt-1 w-full bg-white/10 rounded-xl px-3 py-2 outline-none focus:ring-2 ring-white/20"
                   onKeyDown={(e) => {
                     if (e.key === 'Enter') {
